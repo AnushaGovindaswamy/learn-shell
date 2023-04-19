@@ -10,3 +10,4 @@ echo ${cmndresult}
 wholepath=$(realpath $0)
 script_path=${wholepath}
 echo ${script_path}
+echo $((2+8/4))
