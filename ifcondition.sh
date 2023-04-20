@@ -21,7 +21,7 @@ weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xarg
   input=$2
   if [ -z $input ]
    then
-  echo input missing
+  echo input missing:
   exit
   fi
 
