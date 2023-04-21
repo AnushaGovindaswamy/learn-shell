@@ -2,7 +2,8 @@
 fruit_name=$1
 quantity=$2
 
-if [ -z "$fruit_name" ] then
+if [ -z "$fruit_name" ]
+then
   echo Input Missing1
 fi
 weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xargs -n1|sed -n '2p'
