@@ -17,7 +17,7 @@ weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xarg
   then
   echo weather is giving valuesud
   echo ${weather}
-  else [ "$weather" -ge 0]
+  else [ "$weather" -ge "0"]
   echo ${weather}
   fi
   input=$2
