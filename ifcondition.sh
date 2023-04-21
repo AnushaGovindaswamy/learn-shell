@@ -2,9 +2,9 @@
 fruit_name=$1
 quantity=$2
 
-if [ -z "$fruit_name" ]
-then
-  echo Input Missing1
+if [ -z "$fruit_name" ]; then
+  echo Input Missing by me
+
 fi
 weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xargs -n1|sed -n '2p'
 )
@@ -13,14 +13,14 @@ weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xarg
   if [ "$wea" -gt "0"]
    then
   echo weather is displaying value
-  echo ${weather}
+  echo ${weather} 1
   fi
   if [ "$wea2" -ne "0"]
   then
   echo weather is giving valuesud
-  echo ${weather}
+  echo ${weather} 22
   else [ "$weather" -ge "0"]
-  echo ${weather}
+  echo ${weather} 23
   fi
   input=$2
   if [ -z "$input" ]
