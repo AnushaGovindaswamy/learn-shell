@@ -8,12 +8,14 @@ if [ -z "$fruit_name" ]; then
 fi
 weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xargs -n1|sed -n '2p'
 )
-  if [ "$weather" -gt "0"]
+  wea=10
+  wea2=13
+  if [ "$wea" -gt "0"]
    then
   echo weather is displaying value
   echo ${weather}
   fi
-  if [ "$weather" != "0"]
+  if [ "$wea2" != "0"]
   then
   echo weather is giving valuesud
   echo ${weather}
