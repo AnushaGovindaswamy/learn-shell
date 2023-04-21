@@ -21,6 +21,7 @@ weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xarg
   echo ${weather} 22
   fi
   if [ "$weather" -ge "0"]
+  then
   echo ${weather} 23
   fi
   input=$2
