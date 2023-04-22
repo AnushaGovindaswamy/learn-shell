@@ -38,7 +38,7 @@ function_name4()
     echo '$1'
     if [ "$1" -gt 0 ]
     then
-    echo "Failure"
+    return
     else
       echo "sucesss"
       fi
@@ -47,3 +47,4 @@ function_name1 123 xyz
 yum install nginx -y
 
   function_name4 $?
+  echo "hhhjiikkkkkk"
