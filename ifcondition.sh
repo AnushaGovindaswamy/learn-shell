@@ -11,3 +11,12 @@ weather=$(curl -L  https://weatherstack.com/?utm_source=google|grep -w lat| xarg
   echo -e "\e[31m <<<<anusha>>>> \e[0m"
      echo ${weather}
 
+if [ -z "$quantity" ]
+then
+  echo Quantity missing
+  exit
+  fi
+  if [ "$quantity" -gt 100 ]
+  then
+    echo profit
+  fi
