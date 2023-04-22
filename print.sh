@@ -12,5 +12,7 @@ echo -e "\e[31mRED COLOR\e[0m"
 echo -e "\e[33manusha\e[0m"
 echo -e "\e[35mgovindaswamy\e[0m"
 echo -e "\e[35mdevops\e[0m"
+echo -e "Iam\noptimistic\person\12345"
+echo -e "hey\tdo\n\nyou\know\t\tdevops"
 
 
