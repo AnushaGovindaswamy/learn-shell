@@ -50,5 +50,4 @@ yum install nginx -y
 # $? will gives result 0 if the command output is success otherwise it gives some random number from 1-255
 #$? will gives the result for only the below line command.
   function_name4 $?
-  echo $?
   echo "gghujj"
