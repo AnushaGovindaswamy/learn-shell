@@ -5,3 +5,4 @@ echo $a
 echo $b
 echo ${c}
 bash exportacess.sh
+echo $d
