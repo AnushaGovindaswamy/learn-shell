@@ -15,11 +15,21 @@ if [ -z "$quantity" ]
 then
   echo Quantity missing
   exit
-  fi
+fi
   if [ "$quantity" -gt 100 ]
   then
     echo profit
   fi
+
+
+if [ "$fruit_name" == "banana" ]
+then
+  echo "sajdhjasvdjasy"
+else
+  echo "dfsdsdffffffffff"
+fi
+
+
 if [ "$fruitname" == "mango"]
 then
 echo allow
