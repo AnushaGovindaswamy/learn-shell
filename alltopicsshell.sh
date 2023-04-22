@@ -61,7 +61,10 @@ echo c - $c
 # export c - This will mark the variable as environment variable so all the scripts/commands that executed on terminal can access this script
 #          - If we declare env variable inside script, All the scripts/commands that executes inside this script can access that variable.
 #Ex:bash print.sh command entered in this script.this print.sh also access the environment variables of this script
-
+#You cannot use sudo, when you use sudo the environment variables will not work.
+ #When we use sudo it is switching to root user, So the environment variables that was declared for centos user are not accessible with root user.
+ #
+ #In case if we want to access the env variables of centos with root user then we have to tell sudo access those by using sudo -E meaning sudo -E bash script.sh will work,
 #4. Inputs
 
 # Special Variables
