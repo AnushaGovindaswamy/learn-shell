@@ -17,12 +17,12 @@ function_name2 "anusha learning devops and got placed with 35LPA"
 
 # Declare a function
 
-function_name() {
+function_name3() {
   echo Hello World
 }
 
 # Call function
-function_name
+function_name3
 
 ## We can send inputs to the function and we can access them with special variables $1-$n, $*, $#
 
@@ -32,5 +32,18 @@ function_name1() {
   echo All Arguments = $*
   echo No Of Arguments = $#
 }
-
 function_name1 123 xyz
+yum install nginx -y
+function_name4 $?
+
+function_name4(
+)
+  {
+    echo "$1"
+    if [ $1 -gt 0 ]
+    then
+    echo "Failure"
+    else
+      echo "sucesss"
+      fi
+  }

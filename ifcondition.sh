@@ -30,7 +30,6 @@ elif [ "$fruit_name" == "banana" ]
   echo "dfsdsdffffffffff"
 fi
 
-
 if [ "$fruit_name" == "mango"]
 then
 echo allow
