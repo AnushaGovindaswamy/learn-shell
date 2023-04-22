@@ -36,7 +36,7 @@ function_name4()
   {
     echo "$1"
     echo '$1'
-    if [ "$1" -gt 0 ]
+    if [ "$1" -gt "0" ]
     then
     echo "dfg"
     else
