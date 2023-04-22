@@ -34,12 +34,13 @@ function_name1() {
 }
 function_name1 123 xyz
 yum install nginx -y
+echo $?
 function_name4 $?
 
 function_name4(
 )
   {
-    echo "$1"
+    echo $1
     if [ $1 -gt 0 ]
     then
     echo "Failure"
