@@ -23,7 +23,7 @@ then
 if [ "$fruitname" == "mango"]
 then
 echo allow
-else if [ "$fruitname" == "banana"]
+elif [ "$fruitname" == "banana"]
 then
 echo partially allow
 else
