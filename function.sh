@@ -32,10 +32,6 @@ function_name1() {
   echo All Arguments = $*
   echo No Of Arguments = $#
 }
-function_name1 123 xyz
-yum install nginx -y
-function_name4 123
-
 function_name4()
   {
     echo $1
@@ -46,3 +42,7 @@ function_name4()
       echo "sucesss"
       fi
   }
+function_name1 123 xyz
+yum install nginx -y
+
+  function_name4 $?
