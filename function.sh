@@ -38,9 +38,9 @@ function_name4()
     echo '$1'
     if [ "$1" -gt 0 ]
     then
-    echo "Failure"
+    echo "dfg"
     else
-      return
+      return 1
       fi
   }
 function_name1 123 xyz
