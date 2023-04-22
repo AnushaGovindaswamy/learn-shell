@@ -29,7 +29,3 @@ then
   then
     echo profit
   fi
-
-   echo -e "\e[35m <<<<govindaswamy>>>> \e[0m"
-   echo ${weather}
-
