@@ -4,5 +4,5 @@ export c=30
 echo $a
 echo $b
 echo ${c}
-bash exportacess.sh
 echo $d
+bash exportacess.sh
