@@ -41,6 +41,7 @@ function_name4()
     echo "dfg"
     else
       return 1
+      echo "hhjuikol"
       fi
   }
 function_name1 123 xyz
