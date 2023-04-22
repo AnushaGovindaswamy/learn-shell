@@ -22,10 +22,11 @@ fi
   fi
 
 
-if [ "$fruit_name" == "banana" ]
+if [ "$fruit_name" == "banana1" ]
 then
   echo "sajdhjasvdjasy"
-else
+elif [ "$fruit_name" == "banana" ]
+  then
   echo "dfsdsdffffffffff"
 fi
 
