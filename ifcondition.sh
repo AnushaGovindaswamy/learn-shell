@@ -31,10 +31,10 @@ elif [ "$fruit_name" == "banana" ]
 fi
 
 
-if [ "$fruitname" == "mango"]
+if [ "$fruit_name" == "mango"]
 then
 echo allow
-elif [ "$fruitname" == "banana"]
+elif [ "$fruit_name" == "banana"]
 then
 echo partially allow
 else
