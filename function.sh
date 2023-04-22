@@ -1,11 +1,15 @@
+anusha=goodgirl
 function_name()
 {
+  echo $anusha
+  DOB=MAY199615
   echo $0
   echo $1
   echo $2
   echo $*
   echo $#
 }
+echo $DOB
 function_name2()
 {
   echo $0
