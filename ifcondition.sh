@@ -28,9 +28,8 @@ then
   if [ "$quantity" -gt 100 ]
   then
     echo profit
-    else
-      echo loss
-      fi
+  fi
 
    echo -e "\e[35m <<<<govindaswamy>>>> \e[0m"
    echo ${weather}
+
