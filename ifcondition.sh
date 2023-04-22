@@ -9,6 +9,7 @@ if [ "$fruitname" == "mango"]
 then
 echo allow
 else if [ "$fruitname" == "banana"]
+then
 echo partially allow
 else
   echo dont allow
