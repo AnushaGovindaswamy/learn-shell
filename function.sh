@@ -34,7 +34,7 @@ function_name1() {
 }
 function_name1 123 xyz
 yum install nginx -y
-function_name4 $?
+function_name4 123
 
 function_name4()
   {
